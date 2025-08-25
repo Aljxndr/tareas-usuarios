@@ -9,8 +9,11 @@
 git clone <URL>
 
 cd tareas-usuarios
+
 composer install
+
 cp .env.example .env
+
 php artisan key:generate
 
 ## Configuración
