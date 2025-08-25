@@ -6,7 +6,7 @@
 - MySQL / PostgreSQL
 
 ## Instalación
-git clone <URL>
+git clone https://github.com/Aljxndr/tareas-usuarios.git
 
 cd tareas-usuarios
 
@@ -32,9 +32,13 @@ php artisan test
 
 ## Endpoints principales
 GET /api/users
+
 GET /api/users/{id}/tasks
+
 POST /api/tasks
+
 PUT /api/tasks/{id}
+
 DELETE /api/tasks/{id}
 
 ## Autenticación (Definir token en .env API_TOKEN)
